@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {of} from "rxjs";
 
 @Component({
@@ -21,7 +21,8 @@ export class BuiltInComponent implements OnInit {
 
   $car = of(this.car);
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-custom',
@@ -9,7 +9,8 @@ export class CustomComponent implements OnInit {
 
   currentDate = new Date();
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
